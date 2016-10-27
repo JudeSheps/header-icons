@@ -5,3 +5,54 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+}
+
+header {
+  text-align: center;
+  background-color: #d05c2e;
+  font-family: Merriweather, serif;
+  color: #fff;
+}
+
+img {
+  padding: .5em 0 0;
+}
+
+.imgleft {
+  float: left;
+  border-left: none;
+  border-right: none;
+}
+
+.imgright {
+  float: right;
+  border-left: none;
+  border-right: none;
+}
+
+h1 {
+  display: inline-block;
+  margin: 0 0 .7rem;
+  padding: .4rem 0 0;
+  font-size: 2em;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  display: inline-block;
+  padding: .3em;
+  float: left;
+  width: 33.333%;
+  border: solid;
+  border-width: 1px;
+  border-color: #a63f38;
+  font-size: 1.125rem;
+}
