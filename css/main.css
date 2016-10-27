@@ -19,6 +19,7 @@ header {
 
 img {
   padding: .5em 0 0;
+  width: 40px;
 }
 
 .imgleft {
@@ -55,4 +56,15 @@ li {
   border-width: 1px;
   border-color: #a63f38;
   font-size: 1.125rem;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+li:hover {
+  background-color: #a63f38;
+  color: #fff;
+  text-decoration: none;
 }
