@@ -50,7 +50,6 @@ ul {
 li {
   background-color: #d05c2e;
   display: inline-block;
-  padding: .3em;
   float: left;
   width: 33.333%;
   border: solid;
@@ -60,11 +59,14 @@ li {
 }
 
 a {
+  width: 100%;
+  display: inline-block;
   color: #fff;
   text-decoration: none;
+  padding: .3em;
 }
 
-li:hover {
+a:hover {
   background-color: #a63f38;
   color: #fff;
   text-decoration: none;
