@@ -48,6 +48,7 @@ ul {
 }
 
 li {
+  background-color: #d05c2e;
   display: inline-block;
   padding: .3em;
   float: left;
